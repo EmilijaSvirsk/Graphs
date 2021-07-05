@@ -113,30 +113,3 @@ int main()
     free(graph);
     free(parent);
 }
-
-
-
-
-/*Duotas kelių sąrašas: miestas, miestas, atstumas. Rasti trumpiausią kelionės iš vieno duoto miesto į kitą duotą miestą maršrutą ir jo ilgį. Numatyti atvejį, kad toks maršrutas neegzistuoja.
-(grafo realizacija paremta kaimynystės matrica)*/
-/*
-6 8 miesto skaic, keliu skaic
-0 1 5
-0 2 2
-0 5 1
-1 5 3
-1 3 1
-2 3 9
-2 4 1
-3 4 8
-1 4 is kokio miesto i koki
-ats: 1 0 2 4 - 8
-
-int n = 6;
-    int graph[6][6] = { 
-        {0, 5, 2, 0, 0, 1},
-        {5, 0, 0, 1, 0, 3},
-        {2, 0, 0, 9, 1, 0},
-        {0, 1, 9, 0, 8, 0},
-        {0, 0, 1, 8, 0, 0},
-        {1, 3, 0, 0, 0, 0}};*/
