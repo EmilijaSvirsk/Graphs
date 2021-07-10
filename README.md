@@ -1,6 +1,6 @@
 # Graphs
 
-Exercise to learn graph data structure written in C.
+Exercise to learn graph data structure and Dijsktra algorithm written in C.
 
 Task:
 There is a given list of roads - city1, city2, distance. Find the shortest path from one city to another and its specific length. 
